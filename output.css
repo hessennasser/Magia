@@ -557,8 +557,17 @@ video {
   }
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -605,6 +614,10 @@ video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .bg-dark-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(38 50 56 / var(--tw-bg-opacity));
@@ -613,6 +626,10 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-roboto {
@@ -685,7 +702,15 @@ video {
     width: 350px;
   }
 
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:text-start {
+    text-align: start;
   }
 }

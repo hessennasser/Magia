@@ -1,0 +1,15 @@
+.swiper-slide {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.swiper-slide.active+.swiper-slide {
+    opacity: 1;
+    visibility: visible;
+}

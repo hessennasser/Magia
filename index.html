@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-02020
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +9,135 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="input.css">
     <link rel="stylesheet" href="style.css">
+    <!-- fontAwesome cdn link -->
     <script src="https://kit.fontawesome.com/d633f21f4a.js" crossorigin="anonymous"></script>
+    <!-- google fonts (Roboto)  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- swiper css cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 </head>
 
-<body class="font-roboto">
+<body class="font-roboto bg-dark-bg">
 
     <!-- start home page section  -->
-    <section class="home bg-dark-bg py-10 text-white w-full h-[100vh] flex items-center justify-center">
-        <div class="container flex items-center flex-col-reverse gap-10 md:flex-row justify-between">
-            <div class="text-holder flex flex-col gap-5">
-                <h2 class="uppercase text-4xl leading-normal tracking-widest font-bold">ui/ux
-                    <br> design
-                </h2>
-                <p class="opacity-70 mb-5">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    <br> Nobis, iste itaque laborum voluptate quas non?
-                </p>
-                <a href="#" class="main-btn">get started</a>
+    <section class="home my-10  py-10 text-white w-full h-[100vh] flex items-center justify-center">
+        <div class="homeSwiper container flex items-center overflow-hidden w-full">
+            <div class="swiper-wrapper w-full flex items-center">
+                <div class="w-full swiper-slide">
+                    <div class="flex w-full items-center flex-col-reverse gap-10 md:flex-row justify-between">
+                        <div class="text-holder flex flex-col gap-5">
+                            <h2 class="text-center md:text-start uppercase text-4xl leading-normal tracking-widest font-bold">ui/ux
+                                <br> design
+                            </h2>
+                            <p class="text-center md:text-start opacity-70 mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <br> Nobis, iste itaque laborum voluptate quas non?
+                            </p>
+                            <a href="#" class="main-btn">get started</a>
+                        </div>
+                        <div class="w-48 md:w-[350px]" class="img-holder">
+                            <img src="images/rafiki.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full swiper-slide">
+                    <div class="flex w-full items-center flex-col-reverse gap-10 md:flex-row justify-between">
+                        <div class="text-holder flex flex-col gap-5">
+                            <h2 class="text-center md:text-start uppercase text-4xl leading-normal tracking-widest font-bold">front end
+                                <br> development
+                            </h2>
+                            <p class="text-center md:text-start opacity-70 mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <br> Nobis, iste itaque laborum voluptate quas non?
+                            </p>
+                            <a href="#" class="main-btn">get started</a>
+                        </div>
+                        <div class="" class="img-holder">
+                            <img src="images/bro.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full swiper-slide">
+                    <div class="flex w-full items-center flex-col-reverse gap-10 md:flex-row justify-between">
+                        <div class="text-holder flex flex-col gap-5">
+                            <h2 class="text-center md:text-start uppercase text-4xl leading-normal tracking-widest font-bold">back end
+                                <br> development
+                            </h2>
+                            <p class="text-center md:text-start opacity-70 mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <br> Nobis, iste itaque laborum voluptate quas non?
+                            </p>
+                            <a href="#" class="main-btn">get started</a>
+                        </div>
+                        <div class="" class="img-holder">
+                            <img src="images/rafiki1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full swiper-slide">
+                    <div class="flex w-full items-center flex-col-reverse gap-10 md:flex-row justify-between">
+                        <div class="text-holder flex flex-col gap-5">
+                            <h2 class="text-center md:text-start uppercase text-4xl leading-normal tracking-widest font-bold">mobile app
+                                <br> development
+                            </h2>
+                            <p class="text-center md:text-start opacity-70 mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <br> Nobis, iste itaque laborum voluptate quas non?
+                            </p>
+                            <a href="#" class="main-btn">get started</a>
+                        </div>
+                        <div class="" class="img-holder">
+                            <img src="images/bro1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full swiper-slide">
+                    <div class="flex w-full items-center flex-col-reverse gap-10 md:flex-row justify-between">
+                        <div class="text-holder flex flex-col gap-5">
+                            <h2 class="text-center md:text-start uppercase text-4xl leading-normal tracking-widest font-bold">software
+                                <br> testing
+                            </h2>
+                            <p class="text-center md:text-start opacity-70 mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                <br> Nobis, iste itaque laborum voluptate quas non?
+                            </p>
+                            <a href="#" class="main-btn">get started</a>
+                        </div>
+                        <div class="" class="img-holder">
+                            <img src="images/bro3.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="w-48 md:w-[350px]" class="img-holder">
-                <img src="images/rafiki.png" alt="">
-            </div>    
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
     <!-- end home page section  -->
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".homeSwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
