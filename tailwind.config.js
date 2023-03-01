@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'main-blue': '#083e96',
         'dark-bg': '#263238',
+        'light-bg': '#2e4978',
       },
     },
     fontFamily: {
