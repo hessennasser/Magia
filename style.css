@@ -89,5 +89,5 @@ nav.active {
 
 nav.active ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
