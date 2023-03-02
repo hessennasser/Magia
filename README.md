@@ -6,7 +6,6 @@
 
 ## Built With
 
-
 ### Front End
 
 - **HTML**
@@ -15,13 +14,11 @@
 - **TAILWIND**
 - **SWIPER CSS**
 
-
 ### Back End (Will Add As Soon As Possible)
 
 - **Node js**
-- **Express**
+- **Express & Cors**
 - **Mongodb**
-
 
 ## Awesome Advanced Fetures
 
