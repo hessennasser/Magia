@@ -30,8 +30,8 @@
 
 ## Creators
 
-- **Hessen**
-- **Mohamed**
-- **Hamdy**
-- **AbdAllah**
-- **Magdy**
+- **Hessen Nasser**
+- **Mohamed Montaser**
+- **Hamdy Mohamed**
+- **AbdAllah Elzayat**
+- **Magdy Elsayed**
