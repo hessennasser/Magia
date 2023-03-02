@@ -1,7 +1,6 @@
 ![awesome-image](./images/Readme/MAGIA_PORTFOLIO_!.png)
 
 # Hello There 👋
-abdallh elzayat
 ---
 
 ## Built With
