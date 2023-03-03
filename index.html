@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magia</title>
-    <link rel="stylesheet" href="./css/output.css" />
-    <link rel="stylesheet" href="./css/input.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <!-- fontAwesome cdn link -->
     <script
       src="https://kit.fontawesome.com/d633f21f4a.js"
@@ -25,6 +22,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <!-- Stylesheets (moved down to over right) -->
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body class="font-roboto bg-dark-bg">
@@ -67,6 +68,7 @@
                 >contact us</a
               >
             </li>
+          </ul>
           </ul>
         </nav>
       </div>
@@ -568,7 +570,7 @@
                     />
                     <img
                       class="w-8 hover:scale-125 hover:rounded-full duration-300 transition-all"
-                      src="images/skills/react.png"
+                      src="images/skills/angular.png"
                       alt=""
                     />
                     <img
@@ -741,6 +743,11 @@
     </section>
     <!-- end portfolio  -->
 
+    <!-- start footer  -->
+    <footer class="bg-[#8c9295]">
+      <p>Made By Magia Team &copy;</p>
+    </footer>
+    <!-- end footer -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
@@ -750,6 +757,9 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+      });
+      var swiper = new Swiper(".portfolioSwiper", {
+        navigation: {},
       });
     </script>
     <script src="script.js"></script>
