@@ -27,7 +27,6 @@
 ## Creators
 
 - [**Hessen Nasser**](https://github.com/hessennasser)
-- [**Mohamed Montaser**](https://github.com/mohamed-montaser1)
 - [**Hamdy Mohamed**](https://github.com/Hamdy-Mohamed)
 - [**AbdAllah Elzayat**](https://github.com/AbdallhElzayat2020)
 - [**Magdy Elsayed**](https://github.com/MagdyElsayyad)
