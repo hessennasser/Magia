@@ -3,14 +3,43 @@
   visibility: hidden;
   transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
 }
-
-strong{
-  font-weight: 900;
-  color: #102eb6;
+::selection{
+  background: #163ce9;
+  color: #EEE;
 }
 
-.buttonShadow{
-  box-shadow: 1em 1em 1em 1em blue;
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+
+} 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #163ce9; 
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1237dd; 
+
+}
+
+.magia_logo{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+}
+strong{
+  font-weight: bold;
+  color: #163ce9;
 }
 .swiper-slide-active {
   opacity: 1;
