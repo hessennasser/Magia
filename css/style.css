@@ -15,7 +15,6 @@
   color: rgb(0, 255, 21);
 }
 
-
 /* section title  */
 /*
 .text-blue-600{
@@ -142,48 +141,49 @@ transition: 0.2s;
   z-index: -1;
 }
 
-
-
-
-
-
-
 /* scroll bar */
 
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
-
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
-
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #1237dd;
   border-radius: 10px;
-
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #122eaa;
-
+}
+.change_color {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #05c1ff;
+  width: 41px;
+  height: 21px;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
 }
 
 .magia_logo {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: capitalize;
 }
 
 strong {
   font-weight: bold;
-  color: #163ce9;
+  color: #05c1ff;
 }
 
 .swiper-slide-active {
@@ -191,7 +191,7 @@ strong {
   visibility: visible;
 }
 
-.swiper-slide.active+.swiper-slide {
+.swiper-slide.active + .swiper-slide {
   opacity: 1;
   visibility: visible;
 }
@@ -281,7 +281,6 @@ footer {
   align-items: center;
 }
 
-
 .project-card-img {
   background-image: url(../images/projects/1.png);
   background-size: cover;
@@ -297,7 +296,6 @@ footer {
 
 .project-card-img:hover {
   background-position: bottom;
-
 }
 
 .caption {
@@ -325,7 +323,11 @@ footer {
 
 .details {
   background: rgb(0, 152, 255);
-  background: linear-gradient(180deg, rgba(0, 152, 255, 0.5131478616837359) 0%, rgba(27, 107, 241, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 152, 255, 0.5131478616837359) 0%,
+    rgba(27, 107, 241, 1) 100%
+  );
   bottom: -200%;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -343,6 +345,6 @@ footer {
   font-size: 12px;
 }
 
-.skills .w-full.md\:w-fit.flex.justify-center.items-center.gap-2.felx-wrap{
+.skills .w-full.md\:w-fit.flex.justify-center.items-center.gap-2.felx-wrap {
   flex-wrap: w;
 }

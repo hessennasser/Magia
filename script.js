@@ -35,3 +35,14 @@ linkedin_icon.onclick = () =>{
   alert("Thanks for your Visit 😃😃 ")
   window.open("https://www.linkedin.com/in/hamdy-abdal-majeed-b67b32246/")
 } 
+
+// change color
+
+
+let change = document.querySelector(".change_color");
+
+document.addEventListener("change",function(){
+  let changeColor = change.value;
+  
+  document.body.style.backgroundColor = changeColor
+});
