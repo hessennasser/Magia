@@ -41,7 +41,7 @@ linkedin_icon.onclick = () =>{
 
 let change = document.querySelector(".change_color");
 
-document.addEventListener("change",function(){
+document.addEventListener("input",function(){
   let changeColor = change.value;
   
   document.body.style.backgroundColor = changeColor
