@@ -172,6 +172,7 @@ label.change_color {
   border-radius: 5px;
   box-shadow: 0px 0px 0px 3px #05c1ff;
   position: relative;
+  cursor: pointer;
 }
 label .change_color_input {
   visibility: hidden;
